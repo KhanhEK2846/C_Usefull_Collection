@@ -10,3 +10,8 @@ typedef struct {
     int a_1;
     float b_1;
 } pre_example02_tst;
+
+typedef struct {
+    int a_2;
+    float b_2;
+} pre_example03_tst;
