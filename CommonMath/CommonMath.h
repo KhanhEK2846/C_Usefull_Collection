@@ -48,29 +48,29 @@ inline int64_t GetMinS64(const int64_t FirstValue, const int64_t SecondValue) {
     return (FirstValue <= SecondValue) ? FirstValue : SecondValue;
 }
 
-/*---------------------------Get MFirstValuex------------------------*/
-inline uint8_t GetMFirstValuexU8(const uint8_t FirstValue, const uint8_t SecondValue) {
+/*---------------------------Get Max------------------------*/
+inline uint8_t GetMaxU8(const uint8_t FirstValue, const uint8_t SecondValue) {
     return (FirstValue >= SecondValue) ? FirstValue : SecondValue;
 }
-inline uint16_t GetMFirstValuexU16(const uint16_t FirstValue, const uint16_t SecondValue) {
+inline uint16_t GetMMaxU16(const uint16_t FirstValue, const uint16_t SecondValue) {
     return (FirstValue >= SecondValue) ? FirstValue : SecondValue;
 }
-inline uint32_t GetMFirstValuexU32(const uint32_t FirstValue, const uint32_t SecondValue) {
+inline uint32_t GetMMaxU32(const uint32_t FirstValue, const uint32_t SecondValue) {
     return (FirstValue >= SecondValue) ? FirstValue : SecondValue;
 }
-inline uint64_t GetMFirstValuexU64(const uint64_t FirstValue, const uint64_t SecondValue) {
+inline uint64_t GetMMaxU64(const uint64_t FirstValue, const uint64_t SecondValue) {
     return (FirstValue >= SecondValue) ? FirstValue : SecondValue;
 }
-inline int8_t GetMFirstValuexS8(const int8_t FirstValue, const int8_t SecondValue) {
+inline int8_t GetMMaxS8(const int8_t FirstValue, const int8_t SecondValue) {
     return (FirstValue >= SecondValue) ? FirstValue : SecondValue;
 }
-inline int16_t GetMFirstValuexS16(const int16_t FirstValue, const int16_t SecondValue) {
+inline int16_t GetMMaxS16(const int16_t FirstValue, const int16_t SecondValue) {
     return (FirstValue >= SecondValue) ? FirstValue : SecondValue;
 }
-inline int32_t GetMFirstValuexS32(const int32_t FirstValue, const int32_t SecondValue) {
+inline int32_t GetMMaxS32(const int32_t FirstValue, const int32_t SecondValue) {
     return (FirstValue >= SecondValue) ? FirstValue : SecondValue;
 }
-inline int64_t GetMFirstValuexS64(const int64_t FirstValue, const int64_t SecondValue) {
+inline int64_t GetMMaxS64(const int64_t FirstValue, const int64_t SecondValue) {
     return (FirstValue >= SecondValue) ? FirstValue : SecondValue;
 }
 
